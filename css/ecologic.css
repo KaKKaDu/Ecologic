@@ -1,0 +1,315 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+/**tags start**/
+nav {
+   height: 75px;
+   background-color: rgba(0,0,0,0.6) !important;
+}
+
+
+body {
+   background-color: rgba(0,0,0,0.7) !important;
+   font-family: Sourse Sans Pro !important;
+}
+
+h1,h2,h3 {
+   color: #fff;
+   letter-spacing: 3px;
+}
+
+h1 {
+   font-size: 3.5em !important;
+}
+
+h3 {
+   font-size: 1.8em !important;
+   padding-bottom: 25px;
+}
+
+ b {
+   color: #BBDA66;
+}
+
+hr {
+   margin-top: 0px !important;
+   margin-bottom: 0px !important;
+   border: none;
+   color: #fff !important;
+   background-color: #fff !important;
+   height: 3px !important;
+}
+
+.green {
+   color: #BBDA66 !important;
+}
+
+/**tags end**/
+
+/**navigation classes start**/
+.logo {
+   margin-left: 10px !important ;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+   color: #BBDA66 !important;
+}
+
+.centr {
+   display: flex;
+   align-items: center;
+}
+
+.navbar-nav li:nth-child(2) {
+   min-width: 117px;
+   margin-right: 9px;
+}
+
+.nav-item {
+   margin-right: 20px;
+   min-height: 60px;
+}
+
+
+.nav-link {
+   color: rgba(255, 255, 255, 1.0) !important;
+   letter-spacing: 2px;
+   font-size: 1.3em !important;
+   transition: 0.2s;
+}
+
+.nav-item:hover .nav-link {
+   color: #BBDA66 !important;
+   transition: 0.2s;
+}
+
+.fa-bars {
+   font-size: 30px;
+}
+
+.but {
+   margin-right: 15px;
+   margin-bottom: 5px;
+   border: none !important;
+   color: #fff !important;
+   box-shadow: none!important;
+}
+
+.but:hover, .butact {
+   color: #BBDA66 !important;
+   transition: 0.2s;
+}
+/**navigation classes end**/
+
+/**main classes start**/
+
+.imfix {
+   position: relative;
+   display: table;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100vh;
+}
+
+.cont-img {
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   will-change: transform;
+}
+
+.imag {
+   position: fixed;
+   display: table;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   will-change: transform;
+   background-image: url(../photo/landscape4.jpeg);
+   filter: brightness(50%);
+}
+
+.capt {
+   position: absolute;
+   top: 40%;
+}
+
+.defbut {
+   color: #fff;
+   font-size: 20px;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 14px;
+   padding-right: 17px;
+   padding-left: 17px;
+   border:solid 2px #BBDA66;
+   border-radius: 15px;
+   transition: 0.2s;
+}
+
+.defbut:hover {
+   color: #fff;
+   background-color: rgba(187, 218, 102, 0.5);
+   box-shadow: 0 0 10px #BBDA66 ;
+   transition: 0.2s;
+}
+/**main classes end**/
+
+/**about us classes start**/
+.text { 
+   background-color: rgba(0,0,0,0.4) !important;
+}
+
+.lead {
+   word-wrap: break-word;
+   color: #fff !important;
+}
+
+.who {
+   font-size: 2.8em !important;
+}
+
+.whotext {
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 10px;
+}
+
+.imgwho {
+   min-height: 270px;
+   background-size: cover;
+   background-image: url(../photo/who1.webp);
+   background-position: center center; 
+   background-repeat:no-repeat;
+   filter: brightness(0.7);
+}
+
+.columns {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+/**about us classes end**/
+
+/**workers classes start**/
+.card {
+   display: flex !important;
+   justify-content: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   max-width: 350px !important;
+   background-color: rgba(0,0,0,0.4) !important;
+}
+
+#workers {
+   background-color: rgba(0,0,0,0.3) !important;
+   padding-bottom: 100px;
+}
+
+.mainwork {
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+
+.card img {
+   width: 100%;
+   height: 195px;
+}
+
+.cardcont{
+   display: flex;
+   justify-content: center;
+}
+
+/**workers classes end**/
+
+/**contact classes start**/
+
+
+.office {
+   height: 90vh !important;
+}
+
+.office-img {
+   background-size: cover;
+   background-image: url(../photo/office1.jpg);
+   filter: brightness(0.4);
+   background-position: center center; 
+   background-repeat:no-repeat;
+   z-index: -1;
+}
+
+.captdown h1 {
+   display: flex;
+   justify-content: center;
+}
+
+.captdown hr {
+   opacity: 0.4;
+}
+
+.conntext {
+   padding-top: 25px;
+   padding-bottom: 15px;
+   color: #fff;
+   font-size: 2.2em;
+   width: 350px;
+}
+
+
+
+
+
+/**contact classes end**/
+
+/**medias start**/
+
+@media (max-width: 991px) {
+   .conntext {
+      font-size: 1.3em;
+      width: 200px;
+   }
+
+   .concont {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .conbut {
+      height: 60px;
+      width: 140px;
+   }
+}
+
+@media (max-width: 767px){
+   .nav-item {
+      background-color: rgba(0,0,0,0.6) !important;
+      padding-left: 25px;
+   }
+
+   h1 {
+      font-size: 3em !important;
+   }
+}
+
+@media (max-width: 411px) {
+   .capt {
+      top: 30% !important;
+   }
+}
+/**medias end**/
+
+ 
+ 
+
+
+
+
