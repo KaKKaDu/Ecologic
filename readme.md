@@ -5,23 +5,55 @@ ___
 ## Fixed picture as a wallpaper
 #### Html
 ```html
-  <div id="main">
-		<div class="imfix">
-			<div class="cont-img">
-				<div class="imag">
+<div id="main">
+	<div class="imfix">
+		<div class="cont-img">
+			<div class="imag">
 
-				</div>
 			</div>
 		</div>
-
-		<div class="text-center col-10 offset-1 capt">
-			<h1><b>Save</b> the world with <span class="greet">Eco<b>Logic</b></span></h1>
-			<h3>Begin caring about <b>nature</b> with us</h3>
-			<a href="#about_us" class="defbut">Start meeting!</a>	
-		</div>	
 	</div>
+
+	<div class="text-center col-10 offset-1 capt">
+		...
+	</div>	
+</div>
 ```
 #### Css
 ```css
+.imfix {
+   position: relative;
+   display: table;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100vh;
+}
 
+.cont-img {
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   will-change: transform;
+}
+
+.imag {
+   position: fixed;
+   display: table;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   will-change: transform;
+   background-image: url(...);
+   filter: brightness(50%);
+}
+
+.capt {
+   position: absolute;
+   top: 40%;
+}
 ```
